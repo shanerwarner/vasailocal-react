@@ -2,24 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+return(
+<div className="flex flex-col h-screen">
+<div className="p-4">
+  <nav>
+    <div className='md:mx-32 md:mt-4 md:rounded-2xl flex flex-wrap items-center justify-between md:justify-around p-3 bg-slate-200 rounded-xl px-4 shadow-lg ring-1 ring-gray-500'>
+    <a href="./index.html" class="font-extrabold text-2xl">VasaiLocal.IT</a>
+
     </div>
-  );
+    
+  </nav>
+</div>
+</div>
+);
 }
 
 export default App;
